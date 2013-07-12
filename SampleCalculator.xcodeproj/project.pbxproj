@@ -19,6 +19,13 @@
 		9DDD0D2D178F31C9009A104B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DDD0D2B178F31C9009A104B /* MainStoryboard_iPhone.storyboard */; };
 		9DDD0D30178F31C9009A104B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DDD0D2E178F31C9009A104B /* MainStoryboard_iPad.storyboard */; };
 		9DDD0D33178F31C9009A104B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDD0D32178F31C9009A104B /* ViewController.m */; };
+		9DDD0D3F178F3358009A104B /* addition.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DDD0D3A178F3358009A104B /* addition.png */; };
+		9DDD0D40178F3358009A104B /* division.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DDD0D3B178F3358009A104B /* division.png */; };
+		9DDD0D41178F3358009A104B /* facebook_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DDD0D3C178F3358009A104B /* facebook_logo.png */; };
+		9DDD0D42178F3358009A104B /* multiplication.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DDD0D3D178F3358009A104B /* multiplication.png */; };
+		9DDD0D43178F3358009A104B /* subtraction.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DDD0D3E178F3358009A104B /* subtraction.png */; };
+		9DDD0D45178F44AE009A104B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDD0D44178F44AE009A104B /* Social.framework */; };
+		9DDD0D47178F44B7009A104B /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDD0D46178F44B7009A104B /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +46,13 @@
 		9DDD0D2F178F31C9009A104B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		9DDD0D31178F31C9009A104B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9DDD0D32178F31C9009A104B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9DDD0D3A178F3358009A104B /* addition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addition.png; sourceTree = "<group>"; };
+		9DDD0D3B178F3358009A104B /* division.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = division.png; sourceTree = "<group>"; };
+		9DDD0D3C178F3358009A104B /* facebook_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_logo.png; sourceTree = "<group>"; };
+		9DDD0D3D178F3358009A104B /* multiplication.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiplication.png; sourceTree = "<group>"; };
+		9DDD0D3E178F3358009A104B /* subtraction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subtraction.png; sourceTree = "<group>"; };
+		9DDD0D44178F44AE009A104B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		9DDD0D46178F44B7009A104B /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DDD0D47178F44B7009A104B /* Accounts.framework in Frameworks */,
+				9DDD0D45178F44AE009A104B /* Social.framework in Frameworks */,
 				9DDD0D14178F31C9009A104B /* UIKit.framework in Frameworks */,
 				9DDD0D16178F31C9009A104B /* Foundation.framework in Frameworks */,
 				9DDD0D18178F31C9009A104B /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +91,8 @@
 		9DDD0D12178F31C9009A104B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9DDD0D46178F44B7009A104B /* Accounts.framework */,
+				9DDD0D44178F44AE009A104B /* Social.framework */,
 				9DDD0D13178F31C9009A104B /* UIKit.framework */,
 				9DDD0D15178F31C9009A104B /* Foundation.framework */,
 				9DDD0D17178F31C9009A104B /* CoreGraphics.framework */,
@@ -91,6 +109,7 @@
 				9DDD0D2E178F31C9009A104B /* MainStoryboard_iPad.storyboard */,
 				9DDD0D31178F31C9009A104B /* ViewController.h */,
 				9DDD0D32178F31C9009A104B /* ViewController.m */,
+				9DDD0D39178F3358009A104B /* Calculator_Images */,
 				9DDD0D1A178F31C9009A104B /* Supporting Files */,
 			);
 			path = SampleCalculator;
@@ -108,6 +127,18 @@
 				9DDD0D29178F31C9009A104B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DDD0D39178F3358009A104B /* Calculator_Images */ = {
+			isa = PBXGroup;
+			children = (
+				9DDD0D3A178F3358009A104B /* addition.png */,
+				9DDD0D3B178F3358009A104B /* division.png */,
+				9DDD0D3C178F3358009A104B /* facebook_logo.png */,
+				9DDD0D3D178F3358009A104B /* multiplication.png */,
+				9DDD0D3E178F3358009A104B /* subtraction.png */,
+			);
+			path = Calculator_Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +198,11 @@
 				9DDD0D2A178F31C9009A104B /* Default-568h@2x.png in Resources */,
 				9DDD0D2D178F31C9009A104B /* MainStoryboard_iPhone.storyboard in Resources */,
 				9DDD0D30178F31C9009A104B /* MainStoryboard_iPad.storyboard in Resources */,
+				9DDD0D3F178F3358009A104B /* addition.png in Resources */,
+				9DDD0D40178F3358009A104B /* division.png in Resources */,
+				9DDD0D41178F3358009A104B /* facebook_logo.png in Resources */,
+				9DDD0D42178F3358009A104B /* multiplication.png in Resources */,
+				9DDD0D43178F3358009A104B /* subtraction.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
