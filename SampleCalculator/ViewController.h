@@ -8,17 +8,27 @@
 
 #import <UIKit/UIKit.h>
 #import <Social/Social.h>
-#import <Accounts/Accounts.h>
+#import <Twitter/Twitter.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController<AVAudioPlayerDelegate>
+
+
 @property (weak, nonatomic) IBOutlet UITextField *enterValue1;
 @property (weak, nonatomic) IBOutlet UITextField *enterValue2;
 @property (weak, nonatomic) IBOutlet UILabel *resultDisplay;
-//@property (nonatomic, retain) NSMutableArray *resultArray;
+@property (weak, nonatomic) IBOutlet UILabel *operatorLbl;
+@property (nonatomic, retain) AVAudioPlayer *player;
+@property (nonatomic, retain) UIButton *audioButon;
+
+
+
 - (IBAction)addition:(id)sender;
-- (IBAction)subtraction:(id)sender;
+- (IBAction)substraction:(id)sender;
 - (IBAction)multiplication:(id)sender;
 - (IBAction)division:(id)sender;
-- (IBAction)faceBook:(id)sender;
+- (IBAction)postToFaceBook:(id)sender;
+- (IBAction)postToTwitter:(id)sender;
 
 @end
